@@ -248,8 +248,8 @@ transition: all 0.3s;
      display: flex;
      justify-content: space-around;
      align-content: center;
-     bottom:50px;
-     left:20px;
+     bottom:40px;
+     left:50px;
   }
 
 .d11 {
