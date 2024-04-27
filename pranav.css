@@ -225,7 +225,9 @@ transition: all 0.3s;
   }
 
 .d2 {
-    position: relative;
+    position: absolute;
+    bottom:30px;
+    right:20px;
     animation-name: animations2 ;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
