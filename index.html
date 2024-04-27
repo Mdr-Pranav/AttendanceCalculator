@@ -1,4 +1,4 @@
-ed<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" >
 <head>
     <meta charset="UTF-8">
@@ -21,15 +21,17 @@ ed<!DOCTYPE html>
       <!-- =<output name="x" for="a b"></output> -->
     <!-- </form> -->
       <!-- <a href="/pranav.html"><button><strong><i>Pranav</i></strong></button></a> -->
+        <form>
         <div >
-          Classes attended : <input type="number" id="attendedClasses" required ><br><br>
-          Total classes till now: <input type="number" id="totalClasses"required >
+          <label for='attendedClasses'>Classes attended : </label><input type="number" id="attendedClasses" required ><br><br>
+          <label for='totalClasses'>Total classes till now: <input type="number" id="totalClasses" required >
         </div>
         <br>
         <div>
           <button onclick="calculateAttendance()">Submit</button>
           <!-- <input type="reset" value="Reset"> -->
         </div>
+        </form>
         <p id="output"><strong>-~The answer comes here~-</strong></p>
     </p>
     </center>
