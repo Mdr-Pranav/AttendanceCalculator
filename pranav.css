@@ -264,9 +264,9 @@ transition: all 0.3s;
  /*Socials animation*/
 @keyframes animations3 {
     0% {bottom:0px}
-    25% {bottom:5px}
-    50% {bottom:10px}
-    75% {bottom:5px}
+    25% {bottom:3px}
+    50% {bottom:5px}
+    75% {bottom:3px}
     100% {bottom:0px}
   }
 
@@ -295,13 +295,11 @@ transition: all 0.3s;
 .scl{
      position:absolute;
      /* height: 80px;*/
-     width: 170px; 
+    width: 150px;  
      /* background: red;  */
      display: flex;
      justify-content: space-around;
      align-content: center;
-     bottom:20px;
-     left:20px;
    }
 
 .socl1{
