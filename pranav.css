@@ -8,6 +8,14 @@ img {
     width:25px;
     height:25px;
 }
+body{
+    background-image: linear-gradient(-90deg,#8360c3, #2e9dbf) ;
+    overflow: hidden;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+}
 
 #img1{width: 50px;height: 50px;object-fit: cover;border-radius: 50%;}
 
@@ -20,130 +28,6 @@ img {
   padding: 10px 25px;
   font-size: 12px;
   cursor: pointer;
-}
-/* Green */
-.utube {
-  border-color: #f44336;
-  color: black;
-
-  transition: all 0.3s;
-}
-.utube:hover {
-  transform: translateY(-10px);
-  background-color:#f44336 ;
-  color: white;
-}
-
-/* Blue */
-.elon {
-  border-color: #2196F3;
-  color: black;
-  transition: all 0.3s;
-}
-
-.elon:hover {
-transform: translateY(-10px);
-  background: #2196F3;
-  color: black;
-}
-
-/* Orange */
-.snap {
-  border-color: #ff9800;
-  color: black;
-transition: all 0.3s;
-}
-
-.snap:hover {
-transform: translateY(-10px);
-  background: #ff9800;
-  color: white;
-}
-
-/* Light Blue*/
-.pes {
-    border-color: rgb(0, 63, 252);
-    color: rgb(0, 0, 0);
-    transition: all 0.3s;
-}
-.pes:hover {
-  transform: translateY(-10px);
-    background: 	rgb(255, 164, 17);
-    color: rgb(255, 255, 255);
-}
-
-/*Green*/
-.spot {
-    border-color: #18d30e;
-    color: black;
-transition: all 0.3s;
-}
-.spot:hover { 
-  transform: translateY(-10px);
-    background:  #18d30e;
-    color: black;
-}
-
-.gpt {
-    border-color: Green;
-    color: black;
-transition: all 0.3s;
-}
-.gpt:hover { 
-  transform: translateY(-10px);
-    background:  Green;
-    color: black;
-}
-
-
-.wweb {
-    border-color: #14ab0c;
-    color: black;
-    transition: all 0.3s;
-}
-.wweb:hover {
-    transform: translateY(-10px);
-    background:  #14ab0c;
-    color: white;
-}
-
-.wweeb {
-    transition: all 0.3s;
-}
-.wweeb:hover {
-    transform: scale(1.3);
-}
-.gam {
-    border-color: grey;
-    color: black;
-    transition: all 0.3s;
-}
-.gam:hover {
-    transform: translateY(-10px);
-    background:  linear-gradient(120deg,#e310c7,#00fff7);
-    color: white;
-}
-
-.games12 {
-  border-color: grey;
-  color: black;
-  transition: all 0.3s;
-}
-.games12:hover {
-  transform: scale(1.25);
-  background: #00fff7;
-  color: white;
-}
-
-.games123 {
-  border-color: grey;
-  color: black;
-  transition: all 0.3s;
-}
-.games123:hover {
-  transform: scale(1.15);
-  background: #000000;
-  color: white;
 }
 
 
@@ -198,7 +82,6 @@ transition: all 0.3s;
 
 .bg-gradient{
     height:100vh;
-    width:100%;
     /* background-image: linear-gradient(270deg,#0f468e,#6ca2cc) ; */
     background-image: linear-gradient(-90deg,#8360c3, #2e9dbf) ;
     /* repeat : no-repeat; */
@@ -278,40 +161,16 @@ transition: all 0.3s;
     animation-iteration-count: infinite;
   }
 
-.social{
-    bottom:0px;
-    /* border: 2px solid #ff56e8; */
-    /* border-radius: 5px; */
-    position:relative;
-    height: 50px;
-    width: 50px;
-    transition: all 0.3s; 
-   }
-   
-.social:hover{
-    transform:scale(1.4);
-   }
-   
-.scl{
-     position:absolute;
-     /* height: 80px;*/
-    width: 150px;  
-     /* background: red;  */
-     display: flex;
-     justify-content: space-around;
-     align-content: center;
-   }
-
 .socl1{
   position:absolute;
      /* height: 80px;*/
-     width: 170px; 
+     width: 130px; 
      /* background: red;  */
      display: flex;
      justify-content: space-around;
-     align-content: center;
+     align-content:center;
      bottom:20px;
-     right:20px;
+     right:0px;
 }
 
 /*Login page space setup*/
