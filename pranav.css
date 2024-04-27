@@ -217,17 +217,17 @@ transition: all 0.3s;
 }
 
 @keyframes animations2 {
-    0% {bottom:75px}
-    25% {bottom:80px}
-    50% {bottom:85px}
-    75% {bottom:80px}
-    100% {bottom:75px}
+    0% {bottom:45px}
+    25% {bottom:50px}
+    50% {bottom:45px}
+    75% {bottom:50px}
+    100% {bottom:45px}
   }
 
 .d2 {
     position: absolute;
-    bottom:30px;
-    right:20px;
+    bottom:45px;
+    right:40px;
     animation-name: animations2 ;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
