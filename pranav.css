@@ -9,7 +9,7 @@ img {
     height:25px;
 }
 body{
-    background-image: linear-gradient(-90deg,#8360c3, #2e9dbf) ;
+    background-colour: #2e9dbf;
     overflow: hidden;
     height:100vh;
     display:flex;
