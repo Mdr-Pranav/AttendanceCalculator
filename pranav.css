@@ -217,11 +217,11 @@ transition: all 0.3s;
 }
 
 @keyframes animations2 {
-    0% {bottom:45px}
-    25% {bottom:50px}
-    50% {bottom:45px}
-    75% {bottom:50px}
-    100% {bottom:45px}
+    0% {bottom:45px;right:40px}
+    25% {bottom:50px;right:40px}
+    50% {bottom:45px;right:40px}
+    75% {bottom:50px;right:40px}
+    100% {bottom:45px;right:40px}
   }
 
 .d2 {
